@@ -1,12 +1,14 @@
 import React from 'react';
+
 import './style.css'
 
 import Header from './componentes/Header/index'
-import { importDeclaration } from '@babel/types';
+import Principal from './paginas/principal/'
 
 const App = () => (
   <div className="App">
       <Header />
+      <Principal />
   </div>
 )
 
