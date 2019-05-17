@@ -23,10 +23,10 @@ export default class Principal extends Component {
       <div className='lista-contatos'>
         {
           this.state.contatos.map(contato =>
-          <article key={contato.contact.id}>
-            <strong>{contato.contact.name}</strong>
-            <p>{contato.contact.email}</p>
-            <p>{contato.contact.birthdate}</p>
+          <article key={contato.id}>
+            <strong>{contato.name}</strong>
+            <p>{contato.email}</p>
+            <p>{contato.birthdate}</p>
             <br />
           </article>
         )}
